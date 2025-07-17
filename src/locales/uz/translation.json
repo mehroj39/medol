@@ -1,0 +1,95 @@
+{
+    "about": {
+        "title": "Biz haqimizda",
+        "description1": "MEDOL kompaniyalar guruhi tibbiyot, muhandislik va iqtisodiyot sohalarida yuqori malakaga ega bo‘lgan mutaxassislar tomonidan tashkil etilgan. Ular yuqori tibbiy texnologiyalar bozorida katta tajribaga ega bo‘lib, kompaniyaning dunyoning turli burchaklarida o‘z vakolatxonalari mavjud. 2011-yilda MEDOL O‘zbekistonda «Medical Online Services» xorijiy korxonasini (FE LLC) ro‘yxatdan o‘tkazdi.",
+        "description2": "Kompaniyaning maqsadi — O‘zbekiston Respublikasining sog‘liqni saqlash tizimiga ilg‘or texnologiyalarni joriy etish orqali jamiyatga foyda keltiradigan shaffof va uzoq muddatli biznesni rivojlantirishdir.",
+        "button": "Batafsil"
+    },
+    "aboutmodal": {
+        "title": "Medol",
+        "description": "MEDOL kompaniyalar guruhi tibbiyot, muhandislik va iqtisodiyot sohalarida yuqori malakali mutaxassislar tomonidan tashkil etilgan bo‘lib, ular yuqori tibbiy texnologiyalar bozorida katta tajribaga ega. Kompaniyaning dunyoning turli burchaklarida o‘z vakolatxonalari mavjud. 2011-yilda MEDOL O‘zbekistonda «Medical Online Services» xorijiy korxonasini (FE LLC) ro‘yxatdan o‘tkazdi. Kompaniyaning maqsadi — O‘zbekiston Respublikasining sog‘liqni saqlash tizimiga ilg‘or texnologiyalarni joriy etish orqali jamiyatga foyda keltiradigan shaffof va uzoq muddatli biznesni qurishdir.",
+        "closebtn": "yopish"
+    },
+    "discount": {
+        "title": "Yangiliklar",
+        "title2": "Malaka oshirish seminari",
+        "description": "19-apreldan 21-aprelgacha AJ 'RSNPMTSU' (Respublika ixtisoslashtirilgan ilmiy-amaliy urologiya tibbiyot markazi)da Ethicon Endo Surgery (Johnson & Johnson) va Medical Online Services xorijiy korxonasi ko‘magida amaliy mashg‘ulot bo‘lib o‘tdi...",
+        "date": "11.09.2021",
+        "btn": "Batafsil"
+    },
+    "feedback": {
+        "title": "Hamkorlar"
+    },
+    "myverticallycenteredmodal": {
+        "title": "Medol",
+        "title2": "Endovaskulyar jarrohlik",
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio quasi accusamus quam, omnis quas impedit voluptate blanditiis."
+    },
+    "products": {
+        "header": "Mahsulotlar",
+        "title": "Diabet",
+        "btn": "Hammasini ko‘rish"
+    },
+    "service": {
+        "header": "Xizmatlar",
+        "title": "LOGISTIKA XIZMATLARI",
+        "description": "Kompaniya tomonidan taqdim etilgan barcha mahsulotlarga kafolatdan keyingi xizmat ko‘rsatiladi. Bizning muhandislarimiz ishlab chiqaruvchilarning tajribasi va sertifikatlariga ega .....",
+        "btn": "Hammasini ko‘rish"
+    },
+    "servicemodal": {
+        "header": "Medol",
+        "title": "LOGISTICS SERVICES",
+        "description": "Ensuring the receipt of permits, registration certificates for medical devices Preparation of facilities for ....",
+        "btn": "Close"
+    },
+    "shopping": {
+        "header": "Kontaktlar",
+        "location": "Toshkent shahri, Chilonzor, 10-kvartal",
+        "email": "info@medol.uz",
+        "phone1": "+998 71 276-62-53",
+        "phone2": "+998 71 276-62-54",
+        "btn": "Ariza yuborish",
+        "description": "Bizning maqsadimiz — global muammolarni hal qilish va innovatsion texnologiyalarni O‘zbekiston bozoriga joriy etish orqali aholiga katta foyda keltiradigan shaffof va uzoq muddatli biznesni barpo etishdir.",
+        "footer": "© 2023 «Medical Online Services» MCHJ",
+        "li": "Biz haqimizda",
+        "li2": "Tarix",
+        "li3": "Hamkorlar",
+        "li4": "Bo‘sh ish o‘rinlari",
+        "li5": "Mahsulotlar",
+        "li6": "Endovaskulyar jarrohlik",
+        "li7": "Aritmologiya",
+        "li8": "Kardiologiya",
+        "li9": "Laboratoriya diagnostikasi",
+        "li10": "Jarrohlik",
+        "li11": "Endourologiya",
+        "li12": "Neyroxirurgiya",
+        "li13": "Anesteziologiya",
+        "li14": "Diabet",
+        "li15": "Xizmatlar",
+        "li16": "Ro‘yxatdan o‘tish",
+        "li17": "Xizmat turlari"
+    },
+    "swiper": {
+        "header": "ABL800 FLEX analizatori",
+        "description": "O‘rta va yuqori darajadagi tahlillar uchun mo‘ljallangan ABL800 FLEX analizatori pH, qon gazlari, elektrolitlar, metabolitlar va oksimetriya kabi barcha asosiy parametrlarni o‘lchaydi.",
+        "btn": "Batafsil"
+    },
+    "medol": {
+        "header": "Medol",
+        "modal": "ABL800 FLEX analizatori",
+        "description": "O‘rta va yuqori darajadagi tahlillar uchun mo‘ljallangan ABL800 FLEX analizatori pH, qon gazlari, elektrolitlar, metabolitlar va oksimetriya kabi barcha asosiy parametrlarni o‘lchaydi.",
+        "btn": "yopish"
+    },
+    "nav": {
+        "location": "Toshkent shahri, Chilonzor, 10-kvartal",
+        "social": "Facebook"
+    },
+    "navbar": {
+        "about": "Biz haqimizda",
+        "shopping": "Kontaktlar",
+        "product": "Mahsulot",
+        "service": "Xizmat",
+        "news": "Yangiliklar",
+        "feedback": "Hamkorlar"
+    }
+}

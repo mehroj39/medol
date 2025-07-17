@@ -1,0 +1,95 @@
+{
+  "about": {   
+    "title": "About",
+    "description1":"The MEDOL Group of Companies was created by highly qualified specialists in the field of medicine, engineering and economics, who have significant experience in the market of high medical technologies, which has its own offices in different parts of the Earth. In 2011, MEDOL registered in Uzbekistan FE LLC 'Medical Online Services",
+    "description2":"The company’s goal is to build a transparent long-term business, to benefit society through the development and implementation of advanced technologies in the healthcare system of the Republic of Uzbekistan.",
+    "button": "Read More"
+  },
+  "aboutmodal":{
+    "title":"Medol",
+    "description":"The MEDOL Group of Companies was created by highly qualified specialists in the field of medicine, engineering and economics, who have significant experience in the market of high medical technologies, which has its own offices in different parts of the Earth. In 2011, MEDOL registered in Uzbekistan FE LLC Medical Online Services. The companys goal is to build a transparent long-term business, to benefit society through the development and implementation of advanced technologies in the healthcare system of the Republic of Uzbekistan",
+    "closebtn":"close"
+  },
+  "discount": {
+    "title":"News",
+    "title2":"Advanced Training Session",
+    "description":"From April 19 to April 21 at JSC 'RSNPMTSU' (Republican Specialized Scientific and Practical Medical Center of Urology) with the. support of Ethicon Endo Surgery (Johnson&Johnson) and FE LLC Medical Online Services a master class was held in the performance of...",
+    "date":"11.09.2021",
+    "btn":"Read More"
+  },
+  "feedback":{
+    "title":"Partners"    
+  },
+  "myverticallycenteredmodal":{
+    "title":"Medol",
+    "title2": "Endovascular surgery",
+    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio quasi accusamus quam, omnis quas impedit voluptate blanditiis."
+  },
+  "products":{
+    "header": "Products",
+    "title": "Diabetes",
+    "btn": "All View"
+  },
+  "service":{
+    "header": "Service",
+    "title": "LOGISTICS SERVICES",
+    "description": "The company provides after-sales service for all products provided. Our engineers have experience and certificates from manufacturers .....",
+    "btn": "All View"
+  },
+  "servicemodal": {
+    "header": "Medol",
+    "title" : "LOGISTICS SERVICES",
+    "description": "Ensuring the receipt of permits, registration certificates for medical devices Preparation of facilities for ....",
+    "btn": "Close"
+  },
+  "shopping":{
+    "header": "Contacts",
+    "location":"Toshkent shahar, Chilonzor 10-kvartal",
+    "email" :"info@medol.uz",
+    "phone1": "+998 71 276-62-53",
+    "phone2" : "+998 71 276-62-54",
+    "btn": "Submit an application",
+    "description": "Our goal is to build a transparent, long-term business that brings great benefits to the population by addressing global issues and introducing innovative technologies to the market of Uzbekistan.",
+    "footer": "© 2023 ООО «Medical Online Services»",
+    "li": "About",
+    "li2": "History",
+    "li3": "Partners",
+    "li4": "Vacansies",
+    "li5": "Products",
+    "li6": "Endovoscular surgery",
+    "li7": "Orithmology",
+    "li8": "cardiology",
+    "li9": "Laboratory Diagnostics",
+    "li10": "surgery",
+    "li11": "endourology",
+    "li12": "Neyroxirurgiya",
+    "li13": "Anesteziolog",
+    "li14": "Diabetes",
+    "li15": "Service",
+    "li16": "registration",
+    "li17": "uslugi"
+  },
+  "swiper": {
+    "header" : " ABL800 FLEX Analyzer",
+    "description" : "Designed for medium to high throughput tests, the ABL800 FLEX Analyzer measures a full range of parameters including pH, blood gases, electrolytes, metabolites and oximetry.",
+    "btn" : "Read More"
+  },
+  "medol": {
+    "header" : "Medol",
+    "modal" : "ABL800 FLEX Analyzer",
+    "description" : "Designed for medium to high throughput tests, the ABL800 FLEX analyzer measures a full range of parameters including pH, blood gases, electrolytes, metabolites and oximetry",
+    "btn" : "close"
+  },
+  "nav" :{
+    "location": "Toshkent shahar, Chilonzor 10-kvartal",
+    "social" : "Facebook"
+  },
+  "navbar" : {
+    "about" :"About",
+    "shopping" :"shopping",
+    "product" : "product",
+    "service" : "service",
+    "news" : "news",
+    "feedback" : "feedback"
+  }
+}
