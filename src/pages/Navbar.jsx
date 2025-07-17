@@ -4,7 +4,7 @@ import hospital from '../assets/Image/hospital.png';
 import { CiLocationOn } from 'react-icons/ci';
 import { FaFacebook, FaPhone, FaSearch } from 'react-icons/fa';
 import { HiOutlineMenuAlt3 } from 'react-icons/hi';
-import MySwiper from '../components/swiper';
+import MySwiper from '../components/Swiper';
 import LanguageSelector from '../components/LanguageSelector';
 import { useTranslation } from 'react-i18next';
 const Navbar = () => {
