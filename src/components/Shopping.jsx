@@ -55,7 +55,7 @@ const Shopping = () => {
           <p className="text-xs text-gray-700"> {t('shopping.footer')}</p>
         </div>
 
-        <div className="w-full lg:w-1/3 flex flex-col sm:flex-row lg:flex-col gap-8">
+        <div className="w-full lg:w-1/3 flex flex-col sm:flex-col lg:flex-row gap-6">
           <ul className="flex-1 flex flex-col gap-2 text-gray-600">
             <li className="text-xl font-semibold text-black"> {t('shopping.li')}</li>
             <li className="hover:text-cyan-400 cursor-pointer">{t('shopping.li2')}</li>
