@@ -1,49 +1,59 @@
-import React from 'react'
-import Modal from 'react-bootstrap/Modal';
-import hospital from '../assets/Image/hospital.png';
+import React from 'react';
 import { useTranslation } from 'react-i18next';
-function ServiceModal(props) {
-    const { t } = useTranslation();
-    console.log(props)
-    return (
-        <Modal
-            {...props}
-            size="lg"
-            aria-labelledby="contained-modal-title-vcenter"
-            centered>
 
-            <div className="fixed inset-0 z-50 flex items-center justify-center bg-black/50">
-                <div className="bg-white w-full max-w-4xl rounded-lg shadow-lg p-6 relative mx-3 flex flex-col gap-7">
-                    <div className="flex justify-between border-b border-gray-300 pb-5">
-                        <h1 className='text-3xl font-medium'> {t('servicemodal.header')}</h1>
-                        <button className='text-black text-3xl' onClick={props.onHide}>&times;</button>
-                    </div>
-                    <div className="flex justify-between" >
-                        <div className="flex gap-7 flex-col">
-                            <h4 className="text-4xl font-normal">{props?.data?.title} {t('servicemodal.title')}
-                            </h4>
-                            <p>
-                                {props.data
-                                    ? props.data.description
-                                    : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio quasi accusamus quam, omnis quas impedit voluptate blanditiis."}
-                                    {t('servicemodal.description')}
-                            </p>
+const ServiceModal = ({ show, onHide, data }) => {
+  const { t } = useTranslation();
 
-                        </div>
-                        <div>
-                            {(props.data && props.data.img ? <img src={props?.data?.img} alt="imgmodal" className="w-full h-auto object-contain" /> : "")}
-                        </div>
-                    </div>
-                    <div className="text-right">
-                        <button className="w-fit px-6 py-3 bg-gradient-to-r from-blue-400 to-blue-700 hover:bg-blue-800 text-white rounded-full text-sm md:text-base mt-4 text-right mr-4" onClick={props.onHide}> {t('servicemodal.btn')}</button>
+  if (!show) return null;
 
-                    </div>
-                </div>
-            </div>
+  return (
+    <div className="fixed inset-0 z-50 flex items-center justify-center bg-black/50 px-3">
+      <div className="bg-white w-full max-w-4xl rounded-lg shadow-lg p-6 relative flex flex-col gap-7">
+        {/* Header */}
+        <div className="flex justify-between items-center border-b border-gray-300 pb-5">
+          <h1 className="text-3xl font-medium">{t('servicemodal.header')}</h1>
+          <button
+            className="text-black text-3xl leading-none focus:outline-none"
+            onClick={onHide}
+          >
+            &times;
+          </button>
+        </div>
 
-        </Modal>
+        {/* Body */}
+        <div className="flex flex-col lg:flex-row justify-between gap-6">
+          <div className="flex flex-col gap-5 flex-1">
+            <h4 className="text-4xl font-normal">
+              {data?.title} {t('servicemodal.title')}
+            </h4>
+            <p className="text-gray-700">
+              {data?.description || 'Lorem ipsum dolor sit amet...'}{' '}
+              {t('servicemodal.description')}
+            </p>
+          </div>
+          <div className="flex-1">
+            {data?.img && (
+              <img
+                src={data.img}
+                alt="modal visual"
+                className="w-full h-auto object-contain"
+              />
+            )}
+          </div>
+        </div>
 
-    )
-}
+        {/* Footer */}
+        <div className="text-right">
+          <button
+            onClick={onHide}
+            className="px-6 py-3 bg-gradient-to-r from-blue-400 to-blue-700 hover:bg-blue-800 text-white rounded-full text-sm md:text-base mt-4"
+          >
+            {t('servicemodal.btn')}
+          </button>
+        </div>
+      </div>
+    </div>
+  );
+};
 
-export default ServiceModal
+export default ServiceModal;

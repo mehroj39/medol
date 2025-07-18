@@ -8,8 +8,17 @@ import MySwiper from '../components/Swiper';
 import LanguageSelector from '../components/LanguageSelector';
 import { useTranslation } from 'react-i18next';
 const Navbar = () => {
-  const [isMenuOpen, setIsMenuOpen] = useState(false);
   const { t } = useTranslation();
+
+   const navItems = [
+  { item: t('navbar.shopping'), link: 'shopping' },
+  { item: t('navbar.about'), link: 'about' },
+  { item: t('navbar.product'), link: 'product' },
+  { item: t('navbar.service'), link: 'service' },
+  { item: t('navbar.news'), link: 'news' }
+];
+
+  const [isMenuOpen, setIsMenuOpen] = useState(false);
   return (
     <div
       className="relative w-full min-h-screen bg-cover bg-center"
@@ -61,9 +70,9 @@ const Navbar = () => {
       </div>
 
       <ul className="hidden xl:flex fixed top-20 left-1/2 -translate-x-1/2 w-[90%] max-w-[1000px] z-30 justify-center gap-6 bg-white py-3 px-4 mt-14 rounded-xl shadow-md text-blue-700 text-sm font-medium">
-        {[t('navbar.shopping'), t('navbar.about'), t('navbar.product'), t('navbar.service'), t('navbar.news')].map((item) => (
-          <li key={item} className="relative group hover:text-cyan-400">
-            <a href={`#${item}`}>{item.toUpperCase()}</a>
+        {navItems.map((item,key) => (
+          <li key={key} className="relative group hover:text-cyan-400">
+            <a href={`#${item.link}`}>{item.item.toUpperCase()}</a>
             <span className="absolute -right-3 top-1/2 -translate-y-1/2 text-cyan-400 opacity-0 group-hover:opacity-100 transition duration-200">
               ●
             </span>

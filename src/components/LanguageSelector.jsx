@@ -21,7 +21,7 @@ const LanguageSelector = () => {
 
 
   const handleSelect = (lang) => {
-    i18n.changeLanguage(lang.code); // ✅ Tilni o‘zgartirish
+    i18n.changeLanguage(lang.code); // 
     setSelected(lang);
     setOpen(false);
   };
