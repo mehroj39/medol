@@ -48,14 +48,18 @@ const Service = () => {
           >
             <img src={item.img} alt={item.title} className="w-full h-32 object-contain mb-4" />
             <h4 className="text-lg font-semibold mb-2">{item.title} {t('service.title')}</h4>
+            <div id='about'></div>
+
             <p className="text-sm text-gray-600">{item.description} {t('service.description')}</p>
             <button
               onClick={() => handleClick(item)}
               className=" absolute bottom-[-20px] mt-6 px-6 py-3 bg-gradient-to-r from-blue-400 to-blue-700 text-white rounded-full text-sm"
             > {t('service.btn')}
             </button>
+
           </div>
         ))}
+
       </div>
 
       {modalShow && (
@@ -65,6 +69,7 @@ const Service = () => {
           onHide={() => setModalShow(false)}
         />
       )}
+
     </div>
   );
 };

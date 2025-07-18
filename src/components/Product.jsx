@@ -139,7 +139,7 @@ const Product = () => {
 
   return (
     <>
-      <div className="py-20 px-6" id="product">
+      <div className="py-20 px-6" >
         <h1 className="text-3xl font-bold text-center text-blue-500 mb-10">
           {t('products.header')}
         </h1>
@@ -150,6 +150,7 @@ const Product = () => {
               className="bg-gray-100 rounded-xl flex flex-col items-center p-6 text-center shadow hover:shadow-md transition"
             >
               <img src={item.img} alt={item.title} className="w-[250px] h-[250px] object-contain" />
+
               <p className="text-2xl font-semibold mt-4">{item.title} {t('products.title')}</p>
               <button
                 onClick={() => handleClick(item)}
@@ -159,7 +160,9 @@ const Product = () => {
               </button>
             </div>
           ))}
+          <div id='service'></div>
         </div>
+
       </div>
 
       <MyVerticallyCenteredModal

@@ -73,6 +73,7 @@ export default function MySwiper() {
 
                 </div>
             )}
+<div id='product'></div>
         </div>
 
     );

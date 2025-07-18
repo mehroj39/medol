@@ -86,8 +86,8 @@
   },
   "navbar" : {
     "about" :"About",
-    "shopping" :"shopping",
-    "product" : "product",
+    "shopping" :"Contacts",
+    "product" : "products",
     "service" : "service",
     "news" : "news",
     "feedback" : "feedback"
