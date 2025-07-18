@@ -74,9 +74,9 @@
         "description": "O‘rta va yuqori darajadagi tahlillar uchun mo‘ljallangan ABL800 FLEX analizatori pH, qon gazlari, elektrolitlar, metabolitlar va oksimetriya kabi barcha asosiy parametrlarni o‘lchaydi.",
         "btn": "Batafsil"
     },
-    "medol": {
+    "modal": {
         "header": "Medol",
-        "modal": "ABL800 FLEX analizatori",
+        "title": "ABL800 FLEX analizatori",
         "description": "O‘rta va yuqori darajadagi tahlillar uchun mo‘ljallangan ABL800 FLEX analizatori pH, qon gazlari, elektrolitlar, metabolitlar va oksimetriya kabi barcha asosiy parametrlarni o‘lchaydi.",
         "btn": "yopish"
     },
