@@ -87,7 +87,7 @@
   "navbar" : {
     "about" :"About",
     "shopping" :"shopping",
-    "products" : "product",
+    "product" : "product",
     "service" : "service",
     "news" : "news",
     "feedback" : "feedback"
